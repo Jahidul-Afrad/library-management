@@ -1,0 +1,15 @@
+table{
+	border:2px solid blue;
+	border-collapse:collapse;
+	margin-left:300px;
+	width:50%;
+}
+td,th,tr{
+	border:2px solid green;
+	text-align:center;
+	text-decoration:none;
+}
+a:hover{
+	color:red;
+}
+

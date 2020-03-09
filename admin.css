@@ -1,0 +1,63 @@
+body{
+	background-color:white;
+	margin: 0px;
+	border: 0px;
+}
+#header{
+	width: 100%;
+	height: 120px;
+	background:powderblue;
+	color: green;
+	text-align:center;
+	float:left;
+}
+#sidebar{
+	width: 30%;
+	height:485px;
+	background:gray;
+	float: right;
+	color:blue;
+	text-align:center;
+}
+#sidebar li a{
+	display:block;
+}
+#mid{
+	float:right;
+	padding-right:40%;
+	text-align:left-side;
+	height:485px;
+}
+.image{
+	border: 20px solid transparent;
+	padding:5px;
+	width:31%;
+	height:485px;
+	border-image: url(Image/border.png) 20 round;
+}
+#data{
+	border-image: url(Image/border.png) 20 round;
+	height: 485px;
+	width:20%;
+	background:yellow;
+	color:black;
+	font-family:Helvetica;
+	float:left;
+	
+}
+#AdminLogo{
+	background: white;
+	border-radius: 50px;
+	height:90px;
+	
+}
+ul li{
+	padding: 20px;
+	border-bottom: 2px solid powderblue;
+	
+}
+ul li:hover{
+	background:#c0392b;
+	color: white;
+	
+}
